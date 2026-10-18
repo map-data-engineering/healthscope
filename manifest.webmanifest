@@ -1,7 +1,7 @@
 {
   "id": "/healthscope/",
-  "name": "HealthScope",
-  "short_name": "HealthScope",
+  "name": "FastHuduma",
+  "short_name": "FastHuduma",
   "start_url": "/healthscope/",
   "scope": "/healthscope/",
   "display": "standalone",
