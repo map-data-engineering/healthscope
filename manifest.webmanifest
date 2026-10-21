@@ -1,7 +1,7 @@
 {
   "id": "/healthscope/",
-  "name": "FastHuduma",
-  "short_name": "FastHuduma",
+  "name": "Afya-Alert",
+  "short_name": "Afya-Alert",
   "start_url": "/healthscope/",
   "scope": "/healthscope/",
   "display": "standalone",
