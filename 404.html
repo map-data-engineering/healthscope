@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <!--
   Page template for the PWA. scripts/web.mjs fills in /healthscope and
-  writes it to public/index.html; Expo fills in en and
-  Afya-Alert and adds the app's scripts, the theme colour and the favicon.
+  writes it to public/index.html; Expo adds the app's scripts, the theme colour
+  and the favicon. The title and language are written here: Expo's export left
+  its Afya-Alert and en placeholders unfilled. The app sets the
+  language to the user's once it starts (src/i18n.ts).
 -->
-<html lang="%LANG_ISO_CODE%">
+<html lang="sw">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>%WEB_TITLE%</title>
+    <title>Afya-Alert</title>
     <link rel="manifest" href="/healthscope/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/healthscope/icons/apple-touch-icon.png" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -37,6 +39,6 @@
   <body>
     <noscript>Afya-Alert inahitaji JavaScript. / Afya-Alert needs JavaScript.</noscript>
     <div id="root"></div>
-  <script src="/healthscope/_expo/static/js/web/entry-3d011bfaab49cc42dbf08300328f5029.js" defer></script>
+  <script src="/healthscope/_expo/static/js/web/entry-400cda4618156ff4774b42e5908a9be8.js" defer></script>
 <script>if('serviceWorker' in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/healthscope/sw.js',{scope:'/healthscope/'})})</script></body>
 </html>
